@@ -1,0 +1,27 @@
+MEDBOT - HOW TO RUN (WITHOUT run.bat)
+
+Recommended method:
+1. Extract this ZIP.
+2. Open the extracted MedBot folder.
+3. Click the folder address bar, type cmd, and press Enter.
+4. Run:
+   mvn.cmd spring-boot:run
+5. Wait until you see:
+   Started MedBotApplication
+   and
+   Tomcat started on port 8081
+6. Open Chrome and go to:
+   http://localhost:8081
+
+Alternative:
+Right-click start-medbot.ps1 and choose "Run with PowerShell".
+If Windows blocks PowerShell scripts, use the CMD method above.
+
+Requirements:
+- Java 17 or later
+- Maven installed and available in PATH
+- No MySQL is required for this version.
+
+Important:
+Keep the terminal window open while using MedBot.
+Press Ctrl+C in that window to stop the server.
